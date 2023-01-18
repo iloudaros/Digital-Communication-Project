@@ -1,8 +1,8 @@
 function symbol_seq = detector(demodulated,M)
 %% Author: Ioannis Loudaros, ΑΜ:1067400
 %% Version: 1.0     Date: 18/01/2023
-% received_signal : Το σήμα που παραλάβαμε από το κανάλι.
 % demodulated : Το demodulated σήμα.
+% M : Το πλήθος των συμβόλων.
 % symbol_seq : Η ακολουθία συμβόλων που περιεχόταν μέσα στο σήμα.
 
 % Πλήθος συγκρίσεων που πρέπει να γίνουν.
