@@ -12,7 +12,7 @@ function bin_seq = demapper(symbol_seq, M, gray, chopped)
 
 % Αν το chopped δεν περαστεί, είναι κενό.
 if ~exist('chopped','var') % 
-    chopped = [];
+    chopped = "";
 end
 
 
